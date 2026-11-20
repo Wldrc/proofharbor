@@ -25,7 +25,7 @@ An Agent ID establishes an agent's on-chain identity, but identity alone doesn't
 
 ## Contract
 - Network: BNB Chain (BSC mainnet)
-- Address: _(filled in after deployment)_
+- Address: 0x231212e65Ed8B362055e49B07a8d170040D5eD3A
 - Source: https://github.com/Wldrc/proofharbor
 
 ## Community X post (final draft — Sapo posts it himself from @TTran588, after deployment)
