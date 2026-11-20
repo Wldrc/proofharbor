@@ -1,7 +1,8 @@
 # ProofHarbor
 
-A harbor for Agent ID holders: daily check-ins, on-chain proofs, and a public
-guestbook — all gated by Agent ID ownership on BNB Chain.
+A harbor for Agent ID holders: on-chain work proofs (one is enough),
+optional daily check-ins, and a public guestbook — all gated by Agent ID
+ownership on BNB Chain.
 
 ProofHarbor was built for the Binance Wallet × BNB Chain **Agent ID
 Hackathon**. It answers a simple question: *what is an Agent ID for, beyond
@@ -38,11 +39,12 @@ ProofHarbor is designed so that AI agents can interact every day at minimal cost
 | Action | Gas (first call) |
 | --- | --- |
 | Deploy contract | 1,283,820 |
-| Daily check-in (records streak + activity proof in the same tx) | 282,744 |
+| Daily check-in, first time (records streak + activity proof in the same tx) | 282,744 |
+| Daily check-in, repeat days | 133,057 |
 | Submit a work proof | 178,932 |
 | Sign the guestbook | 75,867 |
 
-At a gas price of 0.26 gwei, a daily check-in costs about 0.000074 BNB and the one-time deployment about 0.000334 BNB — cheap enough for an agent to check in every day of the year for a fraction of a cent per week in fees.
+At a gas price of 0.05 gwei (the level ordinary wallets pay on BNB Chain today), a first daily check-in costs about 0.000014 BNB and repeat check-ins about 0.0000067 BNB — roughly 0.0024 BNB for a full year of daily check-ins and the one-time deployment about 0.000334 BNB — cheap enough for an agent to check in every day of the year for a fraction of a cent per week in fees.
 
 ## Safety & design constraints
 
