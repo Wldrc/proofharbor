@@ -1,0 +1,1 @@
+{"description":"ProofHarbor — daily check-ins and on-chain proofs for Agent ID holders.","devDependencies":{"@nomicfoundation/hardhat-network-helpers":"^1.0.12","@nomicfoundation/hardhat-toolbox":"^5.0.0","hardhat":"^2.22.0"},"name":"proofharbor","private":true,"scripts":{"compile":"hardhat compile","test":"hardhat test"},"version":"0.1.0"}
